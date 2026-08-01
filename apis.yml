@@ -1,7 +1,15 @@
 aid: paua
 name: Paua
-description: Paua is a company surfaced as a portfolio company of seedcamp, speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Paua is a UK business EV charging platform that consolidates public, home, and
+  workplace electric-vehicle charging into a single EV charge card, driver app,
+  and fleet dashboard, with one monthly invoice across the UK's 95,000+ charging
+  connectors. Paua offers products including Paua Access, Paua Reimburse, Paua
+  Share, Paua PRO, and Salary Sacrifice charging, and exposes partner and Paua
+  Pro APIs for fleet charging data (charging history, costs, energy, timestamps)
+  and chargepoint location data. API access is not public - it is provided to
+  partners and Paua Pro customers after a technical discussion. Paua is backed by
+  Seedcamp and Speedinvest.
 url: https://raw.githubusercontent.com/api-evangelist/paua/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,17 +18,89 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/65aab0b75f6b00acccea258c/66aa444680a8796d987e510c_touch-icon.svg
 tags:
 - Company
-apis: []
+- EV Charging
+- Electric Vehicles
+- Fleet Management
+- Mobility
+- Payments
+- Energy
+- Charge Card
+- United Kingdom
+apis:
+- name: Paua API
+  description: >-
+    Partner and Paua Pro APIs providing fleet charging data (charging history,
+    costs, energy consumption, timestamps, network data across drivers and
+    vehicles) and chargepoint location data for route planning and logistics.
+    Access is not publicly available; documentation is shared as part of a
+    technical discussion with partners and Paua Pro customers.
+  humanURL: https://www.paua.com/paua-apis
+  tags:
+  - EV Charging
+  - Fleet Data
+  - Location
+  properties:
+  - type: Documentation
+    url: https://www.paua.com/paua-apis
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/paua-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/paua-lifecycle.yml
 - type: Website
-  url: http://pauatech.com
+  url: https://www.paua.com
+- type: Documentation
+  url: https://www.paua.com/paua-apis
+- type: Pricing
+  url: https://www.paua.com/pricing
+- type: SignUp
+  url: https://app.pauatech.com/register/
+- type: Login
+  url: https://app.pauatech.com/PauaFleet/Login
+- type: Support
+  url: https://intercom.help/paua/en
+- type: StatusPage
+  url: https://status.pauatech.com/
+- type: Blog
+  url: https://www.paua.com/news-and-opinion
+- type: TermsOfService
+  url: https://www.paua.com/downloads/paua-business-terms
+- type: PrivacyPolicy
+  url: https://www.paua.com/privacy-policy
+- type: ContactForm
+  url: https://www.paua.com/contact-us
+- type: Jobs
+  url: https://www.paua.com/jobs
+- type: LinkedIn
+  url: https://www.linkedin.com/company/pauatech/
+- type: Twitter
+  url: https://twitter.com/evpaua
+- type: Instagram
+  url: https://www.instagram.com/pauaev/
+x-enrichment:
+  date: 2026-07-20
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.paua.com/paua-apis, https://status.pauatech.com/, https://www.paua.com/downloads/paua-business-terms
+provider: Paua
+notes: >-
+  Paua's APIs (fleet charging data and chargepoint location) are private,
+  offered to partners and Paua Pro customers only. Paua does not publish a
+  public versioning policy, deprecation policy, RFC 8594 Sunset/Deprecation
+  header commitment, or API SLA. A live operational status page is published.
+status_page:
+  url: https://status.pauatech.com/
+  present: true
+versioning_policy:
+  present: false
+  evidence: No public API versioning policy published (API access is gated).
+deprecation_policy:
+  present: false
+  evidence: No public deprecation or Sunset-header (RFC 8594) policy published.
+sla:
+  present: false
+  evidence: No public API SLA published; access governed by commercial terms.
+terms:
+  business_terms: https://www.paua.com/downloads/paua-business-terms
+  driver_terms: https://www.paua.com/downloads/paua-driver-terms
