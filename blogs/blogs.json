@@ -2,11 +2,11 @@
   "repo": "paua",
   "feeds": [
     {
-      "source": "https://status.pauatech.com/",
-      "feed_url": "https://status.pauatech.com/feed",
+      "source": "https://www.paua.com/news-and-opinion",
+      "feed_url": "https://www.paua.com/news-and-opinion",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "none"
     },
     {
       "source": "https://status.pauatech.com/feed",
@@ -17,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
